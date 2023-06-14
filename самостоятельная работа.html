@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = prompt("Ваше имя")
+        let b = prompt("ширина комнаты")
+        let c = prompt("длина комнаты")
+        let v = prompt("ширина вашего изделия")
+        let z = prompt("длина вашего изделия")
+        let g = prompt("сколько у вас плиток")
+        let res = (b*c)/(v*z)
+        let r = res-g
+         if(g > res){
+                 alert("вам хватает плиток")
+             }
+             else {
+                 // /r=res-g
+                 alert(`вам не хватает ${r} плиток/плитки`)
+             }
+        alert(`${a} вам надо ${res} плитки/плиток ламината`)
+        
+    </script>
+</body>
+</html>
